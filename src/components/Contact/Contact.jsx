@@ -6,17 +6,15 @@ import {
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
-import {
-    EMAIL_SERVICE_ID,
-    EMAIL_TEMPLATE_ID,
-    EMAIL_PUBLIC_KEY,
-} from "../../config/email";
+
 import { fadeUp } from "../../animations/variants";
 import { SiLeetcode } from "react-icons/si";
 
 import { useState } from "react";
 import personal from "../../data/personal";
-
+const EMAIL_SERVICE_ID = import.meta.env.VITE_EMAIL_SERVICE_ID;
+const EMAIL_TEMPLATE_ID = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
+const EMAIL_PUBLIC_KEY = import.meta.env.VITE_EMAIL_PUBLIC_KEY;
 function Contact() {
     const [formData,setFormData]=useState({
 
