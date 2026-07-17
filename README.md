@@ -1,16 +1,55 @@
-# React + Vite
+# 🚀 Gaurav's Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Welcome to my personal portfolio website! This portfolio showcases my projects, technical skills, coding profiles, certifications, and journey as a Software Engineering student.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+📌 **Repository:** https://github.com/Gaurav-coder-tech/Portfolio
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👨‍💻 About Me
 
-## Expanding the Oxlint configuration
+Hi, I'm **Gaurav**, a CSE student at **NIT Patna** with a passion for building scalable web applications and solving algorithmic problems.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+I'm continuously learning and building projects in:
+
+* Data Structures & Algorithms
+* Full Stack Web Development
+* React Ecosystem
+* Modern JavaScript
+* Problem Solving
+
+---
+
+## ✨ Features
+
+* 🎨 Modern & Minimal UI
+* 📱 Fully Responsive Design
+* ⚡ Fast Performance with Vite
+* 👨‍💻 Projects Showcase
+* 🛠️ Technical Skills Section
+* 📄 Resume Download
+* 📬 Contact Section
+* ✨ Smooth Animations
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+
+### Libraries & Tools
+
+* Framer Motion
+* React Icons
+* Git
+* GitHub
+
+
+Made By Gaurav Kumar
