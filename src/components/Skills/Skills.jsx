@@ -2,6 +2,7 @@ import skills from "../../data/skills";
 import { motion } from "framer-motion";
 
 import { fadeUp } from "../../animations/variants";
+
 import {
     SiCplusplus,
     SiJavascript,
@@ -22,96 +23,122 @@ import {
     SiCloudinary,
 } from "react-icons/si";
 
-
 import { VscVscode } from "react-icons/vsc";
 
-const icons = {
+const icons={
 
-    "C++": <SiCplusplus className="text-blue-500" />,
-    "JavaScript": <SiJavascript className="text-yellow-400" />,
-    "Python": <SiPython className="text-blue-400" />,
+    "C++":<SiCplusplus className="text-blue-500"/>,
 
-    "HTML": <SiHtml5 className="text-orange-500" />,
-    "CSS": <SiCss className="text-blue-500" />,
-    "Tailwind CSS": <SiTailwindcss className="text-cyan-400" />,
-    "React": <SiReact className="text-cyan-400" />,
-    "Next.js": <SiNextdotjs className="text-white" />,
+    "JavaScript":<SiJavascript className="text-yellow-400"/>,
 
-    "Node.js": <SiNodedotjs className="text-green-500" />,
-    "Express.js": <SiExpress className="text-gray-300" />,
+    "Python":<SiPython className="text-blue-400"/>,
 
-    "MongoDB": <SiMongodb className="text-green-500" />,
-    "MySQL": <SiMysql className="text-blue-600" />,
+    "HTML":<SiHtml5 className="text-orange-500"/>,
 
-    "Git": <SiGit className="text-orange-500" />,
-    "GitHub": <SiGithub className="text-white" />,
-    "Docker": <SiDocker className="text-blue-500" />,
-    "VS Code": <VscVscode className="text-blue-500" />,
-    "Postman": <SiPostman className="text-orange-400" />,
-    "Cloudinary": <SiCloudinary className="text-blue-400" />,
+    "CSS":<SiCss className="text-blue-500"/>,
+
+    "Tailwind CSS":<SiTailwindcss className="text-cyan-400"/>,
+
+    "React":<SiReact className="text-cyan-400"/>,
+
+    "Next.js":<SiNextdotjs className="text-white"/>,
+
+    "Node.js":<SiNodedotjs className="text-green-500"/>,
+
+    "Express.js":<SiExpress className="text-gray-300"/>,
+
+    "MongoDB":<SiMongodb className="text-green-500"/>,
+
+    "MySQL":<SiMysql className="text-blue-600"/>,
+
+    "Git":<SiGit className="text-orange-500"/>,
+
+    "GitHub":<SiGithub className="text-white"/>,
+
+    "Docker":<SiDocker className="text-blue-500"/>,
+
+    "VS Code":<VscVscode className="text-blue-500"/>,
+
+    "Postman":<SiPostman className="text-orange-400"/>,
+
+    "Cloudinary":<SiCloudinary className="text-blue-400"/>,
 
 };
 
-function Skills() {
+function Skills(){
 
-    const categories = [
+    const categories=[
 
         {
-            title: "Languages",
-            data: skills.languages,
+
+            title:"Languages",
+
+            data:skills.languages,
+
         },
 
         {
-            title: "Frontend",
-            data: skills.frontend,
+
+            title:"Frontend",
+
+            data:skills.frontend,
+
         },
 
         {
-            title: "Backend",
-            data: skills.backend,
+
+            title:"Backend",
+
+            data:skills.backend,
+
         },
 
         {
-            title: "Database",
-            data: skills.database,
+
+            title:"Database",
+
+            data:skills.database,
+
         },
 
         {
-            title: "Tools",
-            data: skills.tools,
+
+            title:"Tools",
+
+            data:skills.tools,
+
         },
 
     ];
 
-    return (
+    return(
 
         <motion.section
 
-    variants={fadeUp}
+            variants={fadeUp}
 
-    initial="hidden"
+            initial="hidden"
 
-    whileInView="visible"
+            animate="visible"
 
-    viewport={{
-
-        once:true,
-
-        amount:0.3,
-
-    }}
             id="skills"
-            className="min-h-screen bg-[#0A0A0A] text-white py-24"
+
+            className="bg-[#0A0A0A] text-white py-24"
+
         >
 
             <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
                 <p className="text-blue-500 uppercase tracking-[0.3em] font-semibold">
+
                     Skills
+
                 </p>
 
                 <h2 className="text-5xl font-bold mt-3">
+
                     Technologies I Work With
+
                 </h2>
 
                 <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mt-16">
@@ -121,8 +148,11 @@ function Skills() {
                         categories.map((category,index)=>(
 
                             <div
+
                                 key={index}
-                                className="bg-[#111111] border border-gray-800 rounded-2xl p-8 hover:border-blue-500 transition duration-300"
+
+                                className="bg-[#111111] border border-gray-800 rounded-2xl p-8 hover:border-blue-500 transition-all duration-300 hover:scale-[1.02]"
+
                             >
 
                                 <h3 className="text-2xl font-bold mb-8">
@@ -138,13 +168,16 @@ function Skills() {
                                         category.data.map((skill,skillIndex)=>(
 
                                             <div
+
                                                 key={skillIndex}
-                                                className="flex items-center gap-4 p-3 rounded-xl bg-[#1A1A1A] hover:bg-blue-600 transition duration-300"
+
+                                                className="flex items-center gap-4 p-3 rounded-xl bg-[#1A1A1A] hover:bg-blue-600 transition-all duration-300"
+
                                             >
 
                                                 <div className="text-2xl">
 
-                                                    {icons[skill] || "•"}
+                                                    {icons[skill]||"•"}
 
                                                 </div>
 
@@ -172,7 +205,7 @@ function Skills() {
 
             </div>
 
-      </motion.section>
+        </motion.section>
 
     );
 
