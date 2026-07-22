@@ -79,11 +79,9 @@ function About() {
 
                         <div className="bg-[#111] rounded-2xl p-8 border border-gray-800">
 
-                            <h1 className="text-5xl font-bold text-blue-500">
-
-                                NIT
-
-                            </h1>
+                           <h1 className="text-4xl sm:text-5xl font-bold text-blue-500">
+    NIT
+</h1>
 
                             <p className="mt-3 text-gray-400">
 
@@ -95,11 +93,9 @@ function About() {
 
                         <div className="bg-[#111] rounded-2xl p-8 border border-gray-800">
 
-                            <h1 className="text-5xl font-bold text-blue-500">
-
-                                MERN
-
-                            </h1>
+                           <h1 className="text-4xl sm:text-5xl font-bold text-blue-500">
+    MERN
+</h1>
 
                             <p className="mt-3 text-gray-400">
 
@@ -111,12 +107,9 @@ function About() {
 
                         <div className="bg-[#111] rounded-2xl p-8 border border-gray-800">
 
-                            <h1 className="text-5xl font-bold text-blue-500">
-
-                                DSA
-
-                            </h1>
-
+                          <h1 className="text-4xl sm:text-5xl font-bold text-blue-500">
+    DSA
+</h1>
                             <p className="mt-3 text-gray-400">
 
                                 Problem Solving
