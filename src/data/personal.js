@@ -29,8 +29,8 @@ const personal = {
     social: {
     github: "https://github.com/Gaurav-coder-tech",
     linkedin: "https://linkedin.com/in/gaurav-kumar-355019316",
-    leetcode: "https://leetcode.com/u/ZDdDKgEObk8MFG2y/",
-    codeforces: "https://codeforces.com/profile/__Gaurav__kumar__",
+    leetcode: "https://leetcode.com/u//",
+    codeforces: "https://codeforces.com/profile/",
     // email: "mailto:YOUR_EMAIL@gmail.com",
 },
 
