@@ -18,7 +18,7 @@ const coding = [
 
         username: "__Gaurav__kumar__",
 
-        profile: "https://codeforces.com/profile/__Gaurav__kumar__",
+        profile: "https://codeforces.com/profile/",
 
         description:
             "Starting competitive programming journey.",
