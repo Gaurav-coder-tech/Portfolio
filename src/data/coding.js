@@ -16,7 +16,7 @@ const coding = [
     {
         platform: "Codeforces",
 
-        username: "__Gaurav__kumar__",
+        username: "__GOKU__",
 
         profile: "https://codeforces.com/profile/",
 
