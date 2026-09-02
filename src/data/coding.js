@@ -5,7 +5,7 @@ const coding = [
 
         username: "Gaurav kumar",
 
-        profile: "https://leetcode.com/u/ZDdDKgEObk8MFG2y/",
+        profile: "https://leetcode.com/u/__gauarv__kumar/",
 
         description:
             "Regularly solving Data Structures and Algorithms problems.",
